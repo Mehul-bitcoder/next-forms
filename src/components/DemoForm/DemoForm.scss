@@ -1,0 +1,17 @@
+.demo-form {
+
+    .divider {
+        position: relative;
+        height: 1px;
+        width: 35%;
+        background-color: var(--secondary-text);
+    }
+
+    .submit-btn {
+        background-image: linear-gradient(to right, #5594fb, #4e89fd, #4b7efe, #4e72fd, #5564fb);
+
+        &:hover {
+            box-shadow: 0px 0px 20px 5px rgba(85, 148, 251, 0.25);
+        }
+    }
+}

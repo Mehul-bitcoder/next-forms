@@ -10,6 +10,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        base: "var(--base)",
+        form: "var(--form-container)",
+        cta: "var(--primary-cta)",
+        customGray: "var(----secondary-text)",
+        ["form-fields"]: "var(--form-fields)",
+        ["prim-txt"]: "var(--primary-text)",
+        ["sec-txt"]: "var(--secondary-text)"
       },
     },
   },

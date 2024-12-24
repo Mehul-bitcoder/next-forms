@@ -5,6 +5,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --base: #20202f;
+  --form-container: #0b0b12;
+  --primary-cta: #2f80ed;
+  --primary-text: #fff;
+  --secondary-text: #4e4e57;
+  --form-fields: #161626;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +22,7 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--secondary-text);
+  background: var(--base);
   font-family: Arial, Helvetica, sans-serif;
 }
